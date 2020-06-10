@@ -1,13 +1,14 @@
-h1{
-	color: #b50ced;
+.ttl{
+	color: #4a4a35;
 	text-align: center;
+	font-size: 300%;
 }
 h2{
 	color : #f7461e;
 	text-align: center;
 }
 body {
-  background: #c8f7f3;
+   background-image: url("../static/img.jpg");
   color: #333333;
  
 }
@@ -16,7 +17,6 @@ body {
 	margin-right: 400px;
 	border-style: ridge;
 	padding: 20px;
-
 }
 .dtl{
 	text-align: center;
