@@ -25,7 +25,7 @@ class MyAppData(db.Model):
 	
 
 def app_fetcher():
-  arr=play_scraper.search('top', page=1)
+  arr=play_scraper.search('top apps', page=1)
   length=min(10,len(arr))
   dict=[]
   for i in range(0,length):
